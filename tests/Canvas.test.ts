@@ -10,8 +10,8 @@ import {
   AccountUpdate,
 } from 'snarkyjs';
 
-class CanvasData extends CanvasDataFactory(3) { }
-class ClaimList1 extends ClaimListFactory(1) { }
+class CanvasData extends CanvasDataFactory(3) {}
+class ClaimList1 extends ClaimListFactory(1) {}
 // class ClaimList3 extends ClaimListFactory(3) { }
 
 let canvasCompiled = false;

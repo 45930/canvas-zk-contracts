@@ -16,8 +16,8 @@ import type { DeployArgs } from 'snarkyjs';
 import { CanvasDataFactory } from './helpers/CanvasData';
 import { ClaimListFactory } from './helpers/ClaimList';
 
-class CanvasData extends CanvasDataFactory(3) { }
-class ClaimList1 extends ClaimListFactory(1) { }
+class CanvasData extends CanvasDataFactory(3) {}
+class ClaimList1 extends ClaimListFactory(1) {}
 
 export class Canvas extends SmartContract {
   @state(Field) canvasHash = State<Field>();
